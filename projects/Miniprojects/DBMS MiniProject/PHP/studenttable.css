@@ -1,0 +1,32 @@
+body
+{
+    background: url(alvas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#details {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: whitesmoke;
+}
+
+#details td, #details th {
+  
+     -moz-border-radius:6px;
+    padding: 8px;
+}
+
+
+
+#details tr:hover {background-color: black;}
+
+#details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightgrey;
+    color: black;
+}

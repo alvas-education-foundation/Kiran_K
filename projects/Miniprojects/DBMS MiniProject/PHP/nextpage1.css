@@ -1,0 +1,57 @@
+*
+{
+    font-family: sans-serif;
+}
+body
+{
+    font-family: sans-serif;
+    width: 250px;
+    background: url(preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+
+    
+}
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #2c3136; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: yellow;
+}
+
+.form
+{
+    
+    position: fixed;
+    left: 300px;
+    margin: 20px;
+    padding:10px;
+    font-family: sans-serif;
+    
+}
+#pid #validfrom #validto #routeno{
+    border-color: aqua;
+    padding:2px;
+     border: 3px solid #555;
+}

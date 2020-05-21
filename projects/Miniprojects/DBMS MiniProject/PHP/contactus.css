@@ -1,0 +1,10 @@
+.feedback
+{
+    position: fixed;
+    left: 300px;
+    margin: 20px;
+    padding:10px;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+}

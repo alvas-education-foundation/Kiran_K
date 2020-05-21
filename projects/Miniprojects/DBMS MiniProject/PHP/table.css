@@ -1,0 +1,35 @@
+body
+{
+    background: url(preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+
+#log {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+}
+
+#log td, #log th {
+    border-radius:6px;
+    -moz-border-radius:6px;
+    padding: 8px;
+}
+
+#log tr:nth-child(even){background-color: #2c3636;}
+
+#log tr:hover {background-color: #ddd;}
+
+#log th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightgrey;
+   
+   
+}

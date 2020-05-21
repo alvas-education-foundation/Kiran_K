@@ -1,0 +1,22 @@
+
+body{
+    background-image: url("preview.jpg");
+    background-size: cover;
+   font-family: sans-serif;
+    background-repeat:no-repeat;
+    width: auto;
+    color: aliceblue;
+    
+    
+}
+
+head
+{
+    left: 50%;
+    top: 50%;
+    color: aliceblue;
+}
+
+a{
+    color: whitesmoke;
+}
